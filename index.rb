@@ -1,1 +1,4 @@
-puts "Hello, World!"
+puts "Hello, World!"  
+
+words = "Hello, World"
+puts words
