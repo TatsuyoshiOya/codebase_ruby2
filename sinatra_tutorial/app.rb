@@ -28,3 +28,11 @@ end
 get '/your_name/:last_name/:first_name?' do
     "<h1>あなたの苗字は#{params[:last_name]}で名前は#{params[:first_name]}だと思っています。</h1>"
 end
+
+get '/form' do
+  erb :form
+end
+
+post '/form_output' do
+  "Hello World"
+end
